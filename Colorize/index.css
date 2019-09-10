@@ -1,0 +1,68 @@
+
+    body{
+        background-color:skyblue;
+    }
+    h1.primo{ 
+       color: #f2f2f2; background: #ff4a4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif;  
+    }
+    h1.secondo{
+       color: #407091; background: #83ff4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+    h1.terzo{
+       color: #66b121; background: #ff4aa4; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+    h1.quarto{
+        color: #2c118d; background: #ffcf4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+    h1.quinto{
+        color: #95c70c; background: #ac0e28; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+    h1.sesto{ 
+        color: #eeff00; background: #42143e; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+    h1.settimo{
+        color: #9fb7c7; background: #964d4d; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+    h1.ottavo{
+        color: #409164; background: #5c4c03; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left;  padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+    }
+
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* OPZIONI COMUNI DELLE 3 COLONNE SULL LAYOUT*/
+.column {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* OPZIONI COLONNA */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
