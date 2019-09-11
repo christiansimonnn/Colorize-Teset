@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>🎨 Colorize</title>
 
@@ -9,8 +10,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="index.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css" type="text/css" />
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
@@ -18,7 +19,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+
+  <script type="text/javascript" src="./index.js"></script>
 </head>
 
 <body>
@@ -35,7 +37,7 @@
       <a class="active" href="#Refresh">Refresh🔄</a>
       <a href="#Save">Save💾</a>
       <a href="#Undo">Undo🔙</a>
-      <a href="#Update">Update⬆</a>
+      <a href="#Update">Insert⬆</a>
     </div>
   </nav>
 
@@ -45,31 +47,33 @@
       <div class="container">
         <h2><b>Principal Colors</b></h2>
         <div class="list-group">
-          <a href="#" class="list-group-item list-group-item-action" class="Aqua1" >Aqua</a>
-          <a href="#" class="list-group-item list-group-item-action">Black</a>
-          <a href="#" class="list-group-item list-group-item-action">Blue</a>
-          <a href="#" class="list-group-item list-group-item-action">Fuchsia</a>
-          <a href="#" class="list-group-item list-group-item-action">Gray</a>
-          <a href="#" class="list-group-item list-group-item-action">Green</a>
-          <a href="#" class="list-group-item list-group-item-action">Lime</a>
-          <a href="#" class="list-group-item list-group-item-action">Maroon</a>
-          <a href="#" class="list-group-item list-group-item-action">Navy</a>
-          <a href="#" class="list-group-item list-group-item-action">Olive</a>
-          <a href="#" class="list-group-item list-group-item-action">Purple</a>
-          <a href="#" class="list-group-item list-group-item-action">Red</a>
-          <a href="#" class="list-group-item list-group-item-action">Silver</a>
-          <a href="#" class="list-group-item list-group-item-action">Teal</a>
-          <a href="#" class="list-group-item list-group-item-action">White</a>
-          <a href="#" class="list-group-item list-group-item-action">Yellow</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction1()">Aqua</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction2()">Black</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction3()" >Blue</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction4()" >Fuchsia</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction5()" >Gray</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction6()" >Green</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction7()" >Lime</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction8()" >Maroon</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction9()" >Navy</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction10()" >Olive</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction11()" >Purple</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction12()" >Red</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction13()" >Silver</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction14()" >Teal</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction15()" >White</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="myFunction16()" >Yellow</a>
         </div>
       </div>
 
     </div>
     <div class="column2" style="background-color:skyblue;">
       <h2><b>DESCRIPTION</b></h2>
-            <p>Aqua is a greenish-blue color, a variation of the color cyan. The web color aqua is identical to the web color cyan, also sometimes called electric cyan.</p>
-      <p><area style="cursor:pointer" onmouseover='mouseOverColor("#003366")' onclick='clickColor("#003366",-200,54)' shape="poly" coords="63,0,72,4,72,15,63,19,54,15,54,4" alt="#003366">
-</p>
+      <p id="demo"></p>
+
+      <p><area style="cursor:pointer" onmouseover='mouseOverColor("#003366")' onclick='clickColor("#003366",-200,54)'
+          shape="poly" coords="63,0,72,4,72,15,63,19,54,15,54,4" alt="#003366">
+      </p>
     </div>
 </body>
 
