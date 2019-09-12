@@ -3,7 +3,6 @@
  function myFunction1() {
   document.getElementById("demo").innerHTML = "Aqua is a greenish-blue color, a variation of the color cyan. The web color aqua is identical to the web color cyan, also sometimes called electric cyan.";}
 
-
  function myFunction2() {
   document.getElementById("demo").innerHTML = "Black is the darkest color, the result of the absence or complete absorption of visible light. It is an achromatic color, a color without hue, like white.";}
 

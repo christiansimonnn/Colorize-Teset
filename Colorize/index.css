@@ -50,7 +50,7 @@
   box-sizing: border-box;
 }
 
-/* OPZIONI COMUNI DELLE 3 COLONNE SULL LAYOUT*/
+/* OPZIONI COMUNI DELLE 2 COLONNE SULL LAYOUT*/
 .column1{
   float: left;
   width: 30%;
