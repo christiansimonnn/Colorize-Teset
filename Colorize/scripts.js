@@ -72,6 +72,33 @@ function myFunction16() {
     document.getElementById("demo").innerHTML = "Yellow is the color between orange and green on the spectrum of visible light. It is evoked by light with a dominant wavelength of roughly 570–590 nm. It is a primary color in subtractive color systems, used in painting or color printing. In the RGB color model, used to create colors on television and computer screens, yellow is a secondary color made by combining red and green at equal intensity.";
 }
 
+document.getElementById("ciao").onclick = function(r, g, b) {
+
+    r /= 255, g /= 255, b /= 255;
+
+    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+    var h, s, l = (max + min) / 2;
+
+    if (max == min) {
+        h = s = 0;
+
+    } else {
+        var d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch (max) {
+            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+            case g: h = (b - r) / d + 2; break;
+            case b: h = (r - g) / d + 4; break;
+        }
+
+        h /= 6;
+    }
+
+
+    return [h, s, l];
+}
+
+
 
 /* FUNZIONE RGB -> HSL */
 
@@ -140,6 +167,9 @@ function HSLTORGB(h, s, l) {
 function rgb2hex(red, green, blue) {
         var rgb = blue | (green << 8) | (red << 16);
         return '#' + (0x1000000 + rgb).toString(16).slice(1)
+
+
+        
   }
 
   /* HEX TO RGB */
