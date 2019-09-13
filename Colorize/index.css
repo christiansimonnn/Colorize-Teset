@@ -3,28 +3,98 @@
         background-color:skyblue;
     }
     h1.primo{ 
-       color: #f2f2f2; background: #ff4a4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif;  
+       color: #f2f2f2; 
+       background: #ff4a4a; 
+       font-size: 75px; 
+       line-height: 74px; 
+       font-weight: 700; 
+       margin: 0 5px 24px; float: left; 
+       padding: 10px; margin: 0 5px 24px; 
+       font-family: 'Libre Baskerville', serif;  
     }
     h1.secondo{
-       color: #407091; background: #83ff4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+       color: #407091; 
+       background: #83ff4a; 
+       font-size: 75px; 
+       line-height: 74px; 
+       font-weight: 700; 
+       margin: 0 5px 24px; 
+       float: left; 
+       padding: 10px; 
+       margin: 0 5px 24px; 
+       font-family: 'Libre Baskerville', serif; 
     }
     h1.terzo{
-       color: #66b121; background: #ff4aa4; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+       color: #66b121; 
+       background: #ff4aa4; 
+       font-size: 75px; 
+       line-height: 74px; 
+       font-weight: 700; 
+       margin: 0 5px 24px; 
+       float: left; 
+       padding: 10px; 
+       margin: 0 5px 24px; 
+       font-family: 'Libre Baskerville', serif; 
     }
     h1.quarto{
-        color: #2c118d; background: #ffcf4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+        color: #2c118d; 
+        background: #ffcf4a; 
+        font-size: 75px; 
+        line-height: 74px; 
+        font-weight: 700; 
+        margin: 0 5px 24px; 
+        float: left; 
+        padding: 10px; 
+        margin: 0 5px 24px; 
+        font-family: 'Libre Baskerville', serif; 
     }
     h1.quinto{
-        color: #95c70c; background: #ac0e28; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+        color: #95c70c; 
+        background: #ac0e28; 
+        font-size: 75px; 
+        line-height: 74px; 
+        font-weight: 700; 
+        margin: 0 5px 24px; 
+        float: left; 
+        padding: 10px; 
+        margin: 0 5px 24px; 
+        font-family: 'Libre Baskerville', serif; 
     }
     h1.sesto{ 
-        color: #eeff00; background: #42143e; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+        color: #eeff00; 
+        background: #42143e; 
+        font-size: 75px; 
+        line-height: 74px; 
+        font-weight: 700; 
+        margin: 0 5px 24px; 
+        float: left; 
+        padding: 10px; 
+        margin: 0 5px 24px; 
+        font-family: 'Libre Baskerville', serif; 
     }
     h1.settimo{
-        color: #9fb7c7; background: #964d4d; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+        color: #9fb7c7; 
+        background: #964d4d; 
+        font-size: 75px; 
+        line-height: 74px; 
+        font-weight: 700; 
+        margin: 0 5px 24px; 
+        float: left; 
+        padding: 10px; 
+        margin: 0 5px 24px; 
+        font-family: 'Libre Baskerville', serif; 
     }
     h1.ottavo{
-        color: #409164; background: #5c4c03; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left;  padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; 
+        color: #409164; 
+        background: #5c4c03; 
+        font-size: 75px; 
+        line-height: 74px; 
+        font-weight: 700; 
+        margin: 0 5px 24px; 
+        float: left;  
+        padding: 10px; 
+        margin: 0 5px 24px; 
+        font-family: 'Libre Baskerville', serif; 
     }
 
     .topnav {
@@ -73,7 +143,25 @@
   clear: both;
 }
 
+button {
+    border: none;
+    color:black;
+    padding: 2px 12px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #12e01d;
+    border: black;
+    border-style: ridge;
+}
+/*
+input[type=color] {
+  width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
 
-
-
-
+*/

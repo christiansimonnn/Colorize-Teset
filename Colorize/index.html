@@ -41,7 +41,6 @@
     </div>
   </nav>
 
-
   <div class="row">
     <div class="column1" style="background-color:skyblue;">
       <div class="container">
@@ -66,13 +65,60 @@
 
         </div>
       </div>
-   
     </div>
     <div class="column2" style="background-color:skyblue;">
       <h2><b>DESCRIPTION:</b></h2>
       <p id="demo"></p>
-      <p>
-      </p>
+      <H2><b>TABLE OF CONVERSIONS:</b></H2>
+
+      <table style="width:100%">
+        <tr>
+          <th>RGB to HSL</th>
+          <th>HSL to RGB</th>
+          <th>RGB to HEX#</th>
+          <th>HEX# to RGB</th>
+        </tr>
+        <tr>
+          <td>Enter RGB code</br>
+            <from>
+              <input name="rgbtohsl1" class="intext" id="hex" autofocus="" style="width:150px" onblur="RGBTOHSL()"
+                type="text" placeholder="000000" /></br>
+              <button onclick="RGBTOHSL()">CONVERT!</button></BR>
+              <input name="hsl1" class="outtext" style="width:150px" type="text" readonly="readonly" />
+            </from>
+          </td>
+
+          <td>Enter HSL code</br>
+            <form>
+              <input name="hsltorgb1" class="intext" id="hex" autofocus="" style="width:150px" onblur="HSLTORGB()"
+                type="text" placeholder="000000" /></br>
+              <button onclick="HSLTORGB()">CONVERT!</button></BR>
+              <input name="rgb1" class="outtext" style="width:150px" type="text" readonly="readonly" />
+            </form>
+
+          </td>
+          <td>Enter RGB code</b>
+            <form>
+              <input name="rgb2hex" class="intext" id="hex" autofocus="" style="width:150px" onblur="rgb2hex()"
+                type="text" placeholder="000000" /></br>
+              <button onclick="rgb2hex()">CONVERT!</button></BR>
+              <input name="1" class="outtext" style="width:150px" type="text" readonly="readonly" />
+            </form>
+          </td>
+          <td>Ender HEX code</b>
+            <form>
+              <input name="hsltorgb1" class="intext" id="hex" autofocus="" style="width:150px" onblur="Hex2Rgb()"
+                type="text" placeholder="000000" /></br>
+              <button onclick="Hex2Rgb()">CONVERT!</button></BR>
+              <input name="rgb1" class="outtext" style="width:150px" type="text" readonly="readonly" />
+            </form>
+          </td>
+        </tr>
+      </table></br></br>
+      
+       <!--<h2>EXAMPLE</h2>
+      <input name="color" readonly="readonly" >-->
+
     </div>
 </body>
 

@@ -1,4 +1,4 @@
 package corsoEuris.Colorize;
 
 
-delete from Colorize where  /* da definire la posiziomne */
+delete from Colorize where; /* da definire la posiziomne */
